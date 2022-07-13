@@ -52,6 +52,7 @@ h1 {
     font-size: 12px;
     margin-left: 16px;
     font-weight: bold;
+    margin-top: -4%;
 }
 
 .btn {
@@ -60,8 +61,7 @@ h1 {
     padding: 5px;
     margin-top: 8%;
     border: 1px solid white;
-    border-radius: 5px;
-
+    border-radius: 20px;
 
 }
 
@@ -90,6 +90,11 @@ p {
     height: 6.6rem;
 }
 
+.span-1 {
+    font-size: 42px;
+}
+
+
 .header h1 {
     text-transform: uppercase;
     font-family: 'Rubik';
@@ -97,10 +102,12 @@ p {
     font-weight: 400;
 }
 
-span {
-    font-size: 25px;
-    color: orangered;
+.span-2 {
+    margin-top: -4%;
+
 }
+
+
 
 .main-nav-list {
     list-style: none;
@@ -127,7 +134,7 @@ a:hover {
     border-radius: 5px;
 }
 
-
+/*---------------------------------------------------------*/
 
 .section-2 {
     display: flex;
@@ -136,23 +143,55 @@ a:hover {
     height: 100vh;
 }
 
-
 .section-2>div {
     font-size: 10px;
-    padding: 47px;
+    padding: 6%;
+    line-height: 31px;
 }
 
 .container {
-    width: 50%;
+    width: 52%;
+}
+
+span {
+    font-family: 'Rubik';
+    font-size: 12px;
+    color: orangered;
+    font-weight: 500;
+}
+
+.heading-2 {
+    font-size: 24px;
+    font-family: rubik;
+}
+
+.step-1 {
+    font-size: 2.6rem;
+    line-height: 16.6rem;
+    color: #ddd;
+}
+
+.heading-3 {
+    font-size: 21px;
+    font-family: rubik;
+    margin-top: -20%;
+}
+
+.description-1 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
 }
 
 .app-screen-img {
     width: 17%;
     height: 75%;
-    margin: auto;
     object-fit: cover;
     margin-left: 10px;
+    margin-top: 12%;
 }
+
+/*..................................................*/
 
 .section-3 {
     display: flex;
@@ -168,6 +207,23 @@ a:hover {
 }
 
 
+.step-2 {
+    font-size: 2.6rem;
+    line-height: 16.6rem;
+    color: #ddd;
+}
+
+.heading-4 {
+    font-size: 21px;
+    font-family: rubik;
+    margin-top: -24%;
+}
+
+.description-2 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+}
 
 .app-screen-img2 {
 
@@ -177,11 +233,13 @@ a:hover {
     margin-left: 10%
 }
 
+/*....................................*/
 .section-4 {
     display: flex;
 
     width: 100%;
     height: 100vh;
+    margin-top: -14%;
 }
 
 .section-4>div {
@@ -193,10 +251,57 @@ a:hover {
     width: 50%;
 }
 
+.step-3 {
+    font-size: 2.6rem;
+    line-height: 16.6rem;
+    color: #ddd;
+}
+
+.heading-5 {
+    font-size: 21px;
+    font-family: rubik;
+    margin-top: -20%;
+}
+
+.description-3 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
 .app-screen-img3 {
     width: 17%;
     height: 75%;
     margin: auto;
     object-fit: cover;
     margin-left: 10px;
+}
+
+h6{
+    text-align: center;
+    padding: 24px;
+    font-family: rubik;
+    margin-bottom: 2.4rem;
+    letter-spacing: 0.75px;
+    font-size: 74%;
+    font-weight: -52px;
+    color: #999;
+    font-weight: 500;
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 68%;
+    justify-content: space-around;
+    position: absolute;
+    object-fit: cover;
+    gap: 4px;
+    margin-top: -3%;
+    margin-left: 69px;
+}
+.logos img{
+    height: 2.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+
 }
