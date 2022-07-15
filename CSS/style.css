@@ -153,13 +153,18 @@ a:hover {
     width: 52%;
     padding: 43px;
 }
-
+.container-1{
+    width: 54%;
+}
 .span {
     font-family: 'Rubik';
     font-size: 12px;
     color: orangered;
     font-weight: 500;
     text-transform: uppercase;
+}
+.span-1{
+    color: orangered;
 }
 
 .heading-2 {
