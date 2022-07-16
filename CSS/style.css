@@ -35,6 +35,7 @@ h1 {
     align-items: center;
 
 
+
 }
 
 .mini-image-container img {
@@ -57,12 +58,12 @@ h1 {
 
 .btn {
     background-color: orangered;
-    width: 30%;
-    padding: 5px;
+    width: 48%;
+    padding: 7px;
     margin-top: 8%;
     border: 1px solid white;
-    border-radius: 20px;
-
+    border-radius: 6px;
+    font-size: 1rem;
 }
 
 #button {
@@ -72,6 +73,8 @@ h1 {
 a {
     text-decoration: none;
     color: white;
+    font-family: rubik;
+    font-weight: 500;
     padding: 3px;
 }
 
@@ -150,12 +153,14 @@ a:hover {
 }
 
 .container {
-    width: 52%;
+    width: 15rem;
     padding: 43px;
 }
-.container-1{
+
+.container-1 {
     width: 54%;
 }
+
 .span {
     font-family: 'Rubik';
     font-size: 12px;
@@ -163,7 +168,8 @@ a:hover {
     font-weight: 500;
     text-transform: uppercase;
 }
-.span-1{
+
+.span-1 {
     color: orangered;
 }
 
@@ -321,20 +327,23 @@ h6 {
     grid-template-columns: auto auto auto;
 
     padding: 5%;
-    height: 105vh;
+    height: 97vh;
+    gap: 2rem;
 
 }
 
 .section-meals {
-    
+
     padding: 5%;
 }
-.meal-tags{
+
+.meal-tags {
     margin-bottom: 12px;
-    
+
 
 }
-.tag{
+
+.tag {
     display: inline-block;
     padding: 0.2rem 0.4rem;
     text-transform: uppercase;
@@ -344,33 +353,39 @@ h6 {
     font-weight: 600;
     font-family: rubik;
     margin-left: 10px;
-    
+
 }
-.tag--vegetarian{
-    
+
+.tag--vegetarian {
+
     background-color: #51cf66;
 }
-.tag--vegan{
-    
+
+.tag--vegan {
+
     background-color: #94d82d;
     margin-top: 18px;
 }
-.tag--paleo{
-    
+
+.tag--paleo {
+
     background-color: #ffd43b;
 }
+
 .meal-img {
-    width: 20%;
-    height: 33%;
+    width: 100%;
+    height: 46%;
     position: absolute;
     object-fit: cover;
+    top: 0px;
+    right: 0px;
 }
 
 .meal-title {
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
-    font-family: rubik ;
+    font-family: rubik;
 }
 
 .meal-attributes {
@@ -380,64 +395,52 @@ h6 {
     font-size: initial;
     gap: 1rem;
     font-family: rubik;
-    
+
 }
-.meal{
+
+.meal {
     box-shadow: 0px 5px 104px -2px lightgrey;
     width: 80%;
     height: 84%;
     border-radius: 26px;
     overflow: hidden;
-   
-    
+    position: relative;
+
+
 }
-.meal-content{
+
+.meal-content {
     padding: 20px;
     margin-top: 74%;
-    
+
 }
-.meal-icon{
+
+.meal-icon {
     height: 1.4rem;
     width: 2.4rem;
     color: #e67e22;
 }
 
-.list{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap:0.6rem
 
-
-}
-.list-icon{
-    width: 2rem;
-    height: 2rem;
-    color: #e67e22;
-}
-.list-item{
-    font-size: medium;
-    font-family: rubik;
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-}
-
-.heading--tertiary{
+.heading--tertiary {
     font-size: 1.6rem;
     font-family: rubik;
     line-height: 4rem;
 }
-.all-recipes{
+
+.all-recipes {
     text-align: center;
     margin-top: -12%;
 }
+
 .container {
     width: 94%;
-    
+
 
 }
-.link:link,.link:visited{
+
+.link:link,
+.link:visited {
     display: inline-block;
     color: #e67e22;
     text-decoration: none;
@@ -445,23 +448,202 @@ h6 {
     padding-bottom: 2px;
     transition: all 0.3s;
 }
-.link:hover,.link:active{
+
+.link:hover,
+.link:active {
 
     color: #cf711f;
     border-bottom: 1px solid transparent;
 }
 
-.subheading{
+.subheading {
     display: block;
-    font-size: 1.6rem;
+    font-size: 0.9rem;
     font-weight: 500;
     color: #cf711f;
     text-transform: uppercase;
-    margin-bottom: 1.6rem;
+    margin-bottom: 0.6rem;
     letter-spacing: 0.75px;
     font-family: rubik;
 
 }
-.center-text{
+
+.center-text {
     text-align: center;
+}
+
+/*TESTIMONIAL SECTION*/
+
+.section-testimonial {
+    display: flex;
+    width: 100%;
+    height: 132vh;
+    background-color: lightgrey;
+   }
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 56vh;
+    margin-top: 2rem;
+    row-gap: 0.2rem
+
+}
+
+.testimonial-img {
+
+    width: 3rem;
+    height: 3rem;
+
+    border-radius: 30px;
+    position: relative;
+    object-fit: cover;
+
+}
+
+.testimonial-text {
+    font-size: 16px;
+    font-family: rubik;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+
+    font-weight: normal;
+    font-family: inter, sans-serif;
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+.testimonial-name {
+    font-size: 13px;
+    font-family: rubik;
+    margin-bottom: 1rem;
+    color: #777;
+}
+
+.testimonials>div {
+
+    width: 22rem;
+    margin: 40px 1rem 1rem 0;
+
+}
+.gallery-item img {
+    display: block;
+    width: 9rem;
+    position: relative;
+    object-fit: cover;
+    height: 11rem;
+    transition: all 0.4s;
+}
+.gallery-item img:hover{
+    transform: scale(1.1);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.2rem;
+    margin-top: 2rem;
+}
+
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem
+}
+
+.list-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #e67e22;
+}
+
+.list-item {
+    font-size: initial;
+    font-family: rubik;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+
+/* Section Pricing*/
+.section-pricing{
+    padding: 5.6rem 4rem;
+}
+.pricing-plan{
+    
+    border-radius: 11px;
+    padding: 0.8rem;
+    width: 71%;
+}
+.pricing-plan-starter{
+    justify-self: end;
+    border: 2px solid#fdf2e9;
+    
+}
+.pricing-plan-complete{
+    background-color: #fdf2e9;
+    
+}
+/*.pricing-plan-complete::after{
+    content: "Best value";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffd43b;
+    color:#333;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding:0.8rem 3.2rem;
+}*/
+.plan-header{
+    text-align: center;
+    margin-bottom: 2.8rem;
+    width: 95%;
+   
+}
+.plan-name{
+    color: #cf711f;
+    font-weight: 600;
+    font-size: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 0.75;
+    margin-bottom: 1.2rem;
+    font-family: rubik;
+
+}
+.plan-price{
+    font-size: 3.4rem;
+    font-weight: 600;
+   /* margin-bottom: 1.6rem;*/
+    font-family: rubik;
+
+}
+.plan-price span{
+font-size: 3rem;
+font-weight: 500;
+margin-right: 0.8rem;
+}
+.plan-text{
+    font-size: 0.8rem;
+    line-height: 1.8;
+    font-family: rubik;
+    color: #6f6f6f;
+    width: 20rem;
+}
+.plan-sign-up{
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.container-grid-4{
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+    margin-bottom: 9.6rem;
+    
 }
